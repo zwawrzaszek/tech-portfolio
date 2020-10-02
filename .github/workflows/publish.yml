@@ -11,7 +11,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container:
-      image: tamelvinbryant/tech-portfolio
+      image: joatmon08/tech-portfolio
     steps:
     - uses: actions/checkout@v2
     - name: Install dependencies and static website
